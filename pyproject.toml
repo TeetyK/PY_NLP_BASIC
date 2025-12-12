@@ -1,0 +1,18 @@
+[project]
+name = "learnning-nlp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "nltk>=3.9.2",
+    "pip>=25.3",
+    "pythainlp>=5.1.2",
+    "spacy>=3.8.11",
+    "spacy-lookups-data>=1.0.5",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
